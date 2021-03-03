@@ -1,4 +1,4 @@
-const sayilar = [10, 15, 6, 61, 56, 44, 81, 120, 2, 56, 78];
+//const sayilar = [10, 15, 6, 61, 56, 44, 81, 120, 2, 56, 78];
 const students = [
     { id: 1, name: 'Cihan', gender: 'e', class: 'engineer', age: 38, startingDate: 2002, relaseDate: 2006 },
     { id: 2, name: 'Ahmet', gender: 'e', class: 'engineer', age: 32, startingDate: 2008, relaseDate: 2012 },
@@ -11,17 +11,19 @@ const students = [
     { id: 9, name: 'Hakan', gender: 'e', class: 'medicine', age: 22, startingDate: 2013, relaseDate: 2017 },
 ];
 
-for (let i = 0; i < students.length; i++) {
-        console.log(students[i].adi);
-    }
+//for (let i = 0; i < students.length; i++) {
+//        console.log(students[i].adi);
+ //   }
 
-let sonuc = null;
+//let sonuc = null;
 
 // array.find
 
-sonuc = students.find(item => item.class == 'medicine');
-console.table(sonuc);
+//sonuc = students.find(item => item.class == 'medicine');
+//console.table(sonuc);
 
-console.log(sonuc);
+//console.log(sonuc);
 
-module.exports.data = data;
+module.exports = {
+    students 
+}

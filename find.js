@@ -1,4 +1,5 @@
-const data = require('./data.js').data;
+const { students } = require('./data.js');
+
 let sonuc = null;
 
 
@@ -8,11 +9,4 @@ console.table(sonuc);
 
 
 
-
-
-
-
-
-
-console.log(sonuc);
-
+//console.log(sonuc);

@@ -1,4 +1,4 @@
-const data = require('./data.js').data;
+const { students } = require('./data.js');
 
 let sonuc = null;
 
@@ -15,4 +15,4 @@ sonuc = students.map(item => {
 console.table(sonuc);
 
 
-console.log(sonuc);
+//console.log(sonuc);

@@ -1,11 +1,11 @@
-const data = require('./data.js').data;
+const { students } = require('./data.js');
 
 let sonuc = null;
 
 
-sonuc = sayilar.sort((a, b) => b - a);
+sonuc = students.sort((startingDate, relaseDate) => relaseDate - startingDate);
 
 console.table(sonuc);
 
 
-console.log(sonuc);
+//console.log(sonuc);

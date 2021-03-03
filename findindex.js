@@ -1,12 +1,12 @@
-const data = require('./data.js').data;
+const { students } = require('./data.js');
 
 let sonuc = null;
 
 sonuc = students.findIndex(item => {
-    return item.id == 5
+    return item.id == 9
 });
 
 console.table(sonuc);
 
 
-console.log(sonuc);
+//console.log(sonuc);

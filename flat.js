@@ -1,8 +1,8 @@
-const data = require('./data.js').data;
+const { students } = require('./data.js');
 
 let sonuc = null;
 
-const sayilar = [10, [12, 'abc', ['qwwq', 889]], 6, 61, 56, 44, 81, 120, 2, 56, 78];
+const sayilar = [1, 2 ,3, 4, 5, 6, 7, 8, 9 ];
 
 
 sonuc = sayilar.flat(Infinity);
@@ -10,4 +10,4 @@ sonuc = sayilar.flat(Infinity);
 console.table(sonuc);
 
 
-console.log(sonuc);
+//console.log(sonuc);

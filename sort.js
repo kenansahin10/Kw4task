@@ -1,9 +1,15 @@
 const { students } = require('./data.js');
 
-let sonuc = null;
 
+const sonuc = students.sort((item1, item2) => {
+    if (item1.startingDate>item2.startingDate) {
+        return 1;
+    }
 
-sonuc = students.sort((startingDate, relaseDate) => relaseDate - startingDate);
+    else {
+        return -1;
+    }
+});
 
 console.table(sonuc);
 

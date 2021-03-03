@@ -1,6 +1,6 @@
 const { students } = require('./data.js');
 
-let sonuc = null;
+//let sonuc = null;
 
 
 sonuc = students.some(item => item.gender == 'e');

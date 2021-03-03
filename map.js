@@ -8,7 +8,7 @@ sonuc = students.map(item => {
         id:item.id,
         name:item.name,
         gender:item.gender,
-        ortalama: item.relaseDate - item.startingDate
+        finisTime: item.relaseDate - item.startingDate
     }
 });
 
